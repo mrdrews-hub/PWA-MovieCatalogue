@@ -1,12 +1,12 @@
 const UrlParser = {
   parseActiveUrlWithCombiner () {
-    const url = window.location.hash.slice.toLowerCase()
+    const url = window.location.hash.slice(1).toLowerCase()
     const splittedUrl = this._urlSplitter(url)
     return this._urlCombiner(splittedUrl)
   },
 
   parseActiveUrlWithoutCombiner () {
-    const url = window.location.hash.slice().toLowerCase()
+    const url = window.location.hash.slice(1).toLowerCase()
     return this._urlSplitter(url)
   },
 
