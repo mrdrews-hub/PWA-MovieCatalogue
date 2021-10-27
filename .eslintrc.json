@@ -12,6 +12,8 @@
     },
     "rules": {
         "no-unused-vars": "warn",
-        "operator-linebreak": "off"
+        "operator-linebreak": "off",
+        "space-before-function-paren":"off",
+        "eol-last":"off"
     }
 }

@@ -3,6 +3,7 @@ import '../styles/style.css'
 import '../styles/responsive.css'
 import App from './views/app'
 
+console.warn('CopyRight TheMovieDB By Andre Saputra')
 const app = new App({
   button: document.querySelector('#hamburgerButton'),
   drawer: document.querySelector('#navigationDrawer'),
