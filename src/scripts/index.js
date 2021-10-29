@@ -2,6 +2,7 @@ import 'regenerator-runtime'
 import '../styles/style.css'
 import '../styles/responsive.css'
 import App from './views/app'
+import swResgister from './utils/sw-register'
 
 console.warn('CopyRight TheMovieDB By Andre Saputra')
 const app = new App({
@@ -16,4 +17,5 @@ window.addEventListener('hashchange', () => {
 
 window.addEventListener('load', () => {
   app.renderPage()
+  swResgister()
 })
