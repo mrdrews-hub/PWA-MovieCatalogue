@@ -4,7 +4,6 @@ import '../styles/responsive.css'
 import App from './views/app'
 import swResgister from './utils/sw-register'
 
-console.warn('CopyRight TheMovieDB By Andre Saputra')
 const app = new App({
   button: document.querySelector('#hamburgerButton'),
   drawer: document.querySelector('#navigationDrawer'),
