@@ -4,7 +4,7 @@ import { createMovieDetailTemplate } from '../templates/template-creator'
 import LikeButtonInitiator from '../../utils/like-button-initiator'
 
 const Detail = {
-  async render () {
+  async render() {
     return `
       <div id="movie" class="movie"></div>
       <div id="likeButtonContainer"></div>
